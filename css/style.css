@@ -1,42 +1,42 @@
 .game{
-	width: 200px;
-	height: 400px;
-	background-color: #d2d2d2;
-	border-left: 1px solid #627c7d;
-	border-right: 1px solid #627c7d;
-	border-bottom: 1px solid #627c7d;
-	position: absolute;
-	top: 10px;
-	left: 10px;
+  width: 200px;
+  height: 400px;
+  background-color: #d2d2d2;
+  border-left: 1px solid #627c7d;
+  border-right: 1px solid #627c7d;
+  border-bottom: 1px solid #627c7d;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 .next{
-	width: 80px;
-	height: 80px;
-	background-color: #d2d2d2;
-	position: absolute;
-	top: 10px;
-	left: 250px;
-	border: 1px solid #627c7d;
+  width: 80px;
+  height: 80px;
+  background-color: #d2d2d2;
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  border: 1px solid #627c7d;
 }
 .info{
-	position: absolute;
-	top: 100px;
-	left: 250px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
 }
 .none, .current, .done{
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  box-sizing: border-box;
 }
 .none {
-	background-color: #d2d2d2;
+  background-color: #d2d2d2;
 }
 .current {
-	background-color: pink;
-	border: 1px solid red;
+  background-color: pink;
+  border: 1px solid red;
 }
 .done {
-	background-color: pink;
-	border: 1px solid black;
+  background-color: pink;
+  border: 1px solid black;
 }
